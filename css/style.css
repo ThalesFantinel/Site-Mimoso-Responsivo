@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*logo e menu*/
+
+header{
+    background-color: #ffffff;
+    padding:10px;
+    border-bottom:1px solid #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo img{
+    width:100px;
+}
+
+.menu{
+    width:80%;
+    text-align: right;
+}
+
+.menu a{
+    color:#124265;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu a:hover{
+    color:#007bff;
+}
+
+.menu .botao-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding:8px 16px;
+    color:white;
+    border-radius:6px;
+}
+
+.menu .botao-menu:hover{
+    background-color:#124265;
+    color:white;
+}
+
+/*logo e menu*/
+
+/*main*/
+
+section.main{  
+    padding:70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.main{
+    width:100%;
+    margin:60px 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.main-escrita{
+    background-color:#1774BC;
+    border-radius: 15px;
+    width: 1000px;
+    margin-top: 65px;
+}
+
+.main-escrita h2{
+    color:#ffffff;
+    font-size: 40px;
+}
+
+.main-escrita p{
+    color: #ffffff;
+    font-size: 19px;
+    margin:10px 0;
+    width: 1000px;
+    height: 120px;
+}
+
+.main-escrita button{
+    background-color: #ffffff;
+    display: inline-block;
+    padding:8px 30px;
+    margin-bottom: 10px;
+    color: #000000;
+    border-radius:8px;
+    font-size: 16px;
+    border:0;
+    cursor: pointer;
+}
+
+.main-escrita button:hover{
+    color: #000000;
+    background-color: #9d9d9d;
+}
+
+.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: -125px;
+} 
+
+.diferencial-single{
+    border-radius:10px;
+    background-color: #ffffff;
+    width: 23%;
+    margin-right: 2%;
+    padding:50px 20px;
+}
+
+.diferencial-single i{
+    color:#124265;
+    font-size: 23px;
+}
+
+.diferencial-single h2{
+    color:#124265;
+    margin:10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p{
+    color:gray;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+/*main*/
+
+/*sobre*/
+
+section.sobre{
+    padding:80px 0;
+}
+
+.chamada-sobre{
+    width:100%;
+    text-align: center;
+}
+
+.chamada-sobre h2{
+    color:#124265;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color:gray;
+    margin:10px 0;
+}
+
+.conteudo-sobre{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteudo-sobre p{
+    width:48%;
+    margin-right: 2%;
+    color:#444444;
+}
+
+.conteudo-sobre span{
+    display: inline-block;
+    width:100%;
+    margin-top:10px;
+}
+.conteudo-sobre i{
+    color: #007bff;
+}
+
+/*sobre*/
+
+/*resultados*/
+
+section.resultados{
+    background-color:#f8fbfe;
+    padding:20px 0;
+    background-color: #1774BC;
+}
+
+.resultados-itens{
+    width:22%;
+    margin-right: 3%;
+    text-align: center;
+    color:#ffffff;
+}
+.resultados-itens h2{
+    font-size: 30px;
+}
+
+.menu-items{
+    position: absolute;
+    left:0;
+    top:60px;
+    width:100%;
+    text-align: center;
+    background-color:white;
+    border-bottom:2px solid blue;
+    display: block;
+    opacity: 0;
+    transition: 1s;
+}
+
+.menu-items.show{
+    opacity: 1;
+   
+}
+
+.menu-items.hidde{
+    opacity: 0;
+}
+
+.menu-items a{
+    display: block;
+    text-decoration: none;
+    color:blue;
+}
+
+section.sobre{
+    padding:40px 0;
+}
+.sobre-img{
+    width:50%;  
+}
+
+.sobre-img img{max-width: 100%;}
+
+.sobre-content{
+    width:50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding:0 50px;
+    background-color: #ffffff;
+}
+
+.sobre-content h2{
+    padding-top: 20px;
+}
+
+.sobre-empreendedor-content h2{
+    color: #124265;
+    margin-bottom:20px;
+}
+
+.sobre-empreendedor-content p{
+    color:#444;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+/*resultados*/
+
+/*conquistas*/
+
+.center{
+    max-width: 1100px;
+    margin:0 auto;
+    padding:0 2%;
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.conquista-single img{
+    filter: grayscale(100%);
+    transform:scale(1,1);
+    transition: 1s;
+}
+
+.conquista-single img:hover{
+    transform:scale(1.1,1.1);
+    filter:grayscale(0);
+}
+
+/*conquistas*/
+
+/*depoimentos e final*/
+
+section.depoimentos{
+    padding:40px 0;
+    padding-bottom: 0px;
+}
+
+section.depoimentos .depoimentos-escrita{
+    text-align: center;
+
+}
+
+.depoimentos-escrita h2{
+    color: #124265;
+    text-transform: uppercase;
+}
+
+.depoimentos-escrita p{
+    color:black;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.carrousel{
+    display: flex;
+}
+
+.carrousel-single{
+    width:31%;
+    margin-right: 2%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.carrousel-single-box{
+    padding:20px;
+    background-color:#1774BC;
+    border-radius:10px;
+}
+
+.carrousel-single-box p{
+    font-style: italic;
+    color:#ffffff;
+    font-size: 14px;
+}
+
+.carrousel-single img{
+    width:70px;
+    height:70px;
+    display: inline;
+    margin:10px 0;
+    border-radius:50%;
+    margin-top: 30px;
+}
+
+/*depoimentos e final*/
+
+/*footer*/
+
+#footer {
+    background: #1774BC;
+    color: #124265;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.redes-sociais a{
+    color: #124265;
+    background-color: #1774BC;
+    text-decoration: none;
+}
+
+.redes-sociais a:hover{
+    color: #ffffff;
+}
+
+
+
+
+
+/*footer*/
