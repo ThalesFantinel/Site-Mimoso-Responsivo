@@ -40,13 +40,13 @@ header{
     background-color: #007bff;
     display: inline-block;
     padding:8px 16px;
-    color:white;
+    color: #ffffff;
     border-radius:6px;
 }
 
 .menu .botao-menu:hover{
     background-color:#124265;
-    color:white;
+    color:#ffffff;
 }
 
 /*logo e menu*/
@@ -97,7 +97,6 @@ section.main{
     border-radius:8px;
     font-size: 16px;
     border:0;
-    cursor: pointer;
 }
 
 .main-escrita button:hover{
@@ -132,7 +131,7 @@ section.main{
 }
 
 .diferencial-single p{
-    color:gray;
+    color:#9d9d9d;
     font-size: 14px;
     line-height: 30px;
 }
@@ -158,7 +157,7 @@ section.sobre{
 
 .chamada-sobre p{
     font-size: 14px;
-    color:gray;
+    color:#9d9d9d;
     margin:10px 0;
 }
 
@@ -182,6 +181,26 @@ section.sobre{
     color: #007bff;
 }
 
+section.sobre{
+    padding:40px 0;
+}
+
+.sobre-img{
+    width:50%;  
+}
+
+.sobre-content{
+    width:50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding:0 50px;
+    background-color: #ffffff;
+}
+
+.sobre-content h2{
+    padding-top: 20px;
+}
+
 /*sobre*/
 
 /*resultados*/
@@ -202,34 +221,6 @@ section.resultados{
     font-size: 30px;
 }
 
-.menu-items{
-    position: absolute;
-    left:0;
-    top:60px;
-    width:100%;
-    text-align: center;
-    background-color:white;
-    border-bottom:2px solid blue;
-    display: block;
-    opacity: 0;
-    transition: 1s;
-}
-
-.menu-items.show{
-    opacity: 1;
-   
-}
-
-.menu-items.hidde{
-    opacity: 0;
-}
-
-.menu-items a{
-    display: block;
-    text-decoration: none;
-    color:blue;
-}
-
 section.sobre{
     padding:40px 0;
 }
@@ -237,7 +228,9 @@ section.sobre{
     width:50%;  
 }
 
-.sobre-img img{max-width: 100%;}
+.sobre-img img{
+    max-width: 100%;
+}
 
 .sobre-content{
     width:50%;
@@ -249,17 +242,6 @@ section.sobre{
 
 .sobre-content h2{
     padding-top: 20px;
-}
-
-.sobre-empreendedor-content h2{
-    color: #124265;
-    margin-bottom:20px;
-}
-
-.sobre-empreendedor-content p{
-    color:#444;
-    font-size: 14px;
-    margin-bottom: 14px;
 }
 
 /*resultados*/
@@ -290,12 +272,12 @@ section.sobre{
 
 /*depoimentos e final*/
 
-section.depoimentos{
+.depoimentos{
     padding:40px 0;
     padding-bottom: 0px;
 }
 
-section.depoimentos .depoimentos-escrita{
+.depoimentos-escrita{
     text-align: center;
 
 }
@@ -306,36 +288,36 @@ section.depoimentos .depoimentos-escrita{
 }
 
 .depoimentos-escrita p{
-    color:black;
+    color: #000000;
     margin-bottom: 50px;
     margin-top: 15px;
     font-size: 14px;
 }
 
-.carrousel{
+.img-final{
     display: flex;
 }
 
-.carrousel-single{
+.img-final-single{
     width:31%;
     margin-right: 2%;
     text-align: center;
     margin-bottom: 30px;
 }
 
-.carrousel-single-box{
+.img-final-single-box{
     padding:20px;
     background-color:#1774BC;
     border-radius:10px;
 }
 
-.carrousel-single-box p{
+.img-final-single-box p{
     font-style: italic;
     color:#ffffff;
     font-size: 14px;
 }
 
-.carrousel-single img{
+.img-final-single img{
     width:70px;
     height:70px;
     display: inline;
@@ -365,9 +347,5 @@ section.depoimentos .depoimentos-escrita{
 .redes-sociais a:hover{
     color: #ffffff;
 }
-
-
-
-
 
 /*footer*/
